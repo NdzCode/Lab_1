@@ -24,7 +24,7 @@ cámaras.
 Main: Representa a la clase principal que permite crear diferentes sesiones de clases y
 manipular la grabación de las clases.
 
-2.  Desarrolle la clase Camara y el m´etodo transmitir.
+2.  Desarrolle la clase Camara y el método transmitir.
 
 3.  Desarrolle la clase Dispositivo que herede de la clase Camara, donde el m´etodo
 transmitir imprimir´a un String por pantalla con el nombre del dispositivo.
