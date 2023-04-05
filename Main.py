@@ -1,8 +1,11 @@
 from Dispositivo import Dispositivo
+from Sesion import Sesion
 
-class Main():
+class Main(Sesion):
 
     def __init__(self):
+        super().__init__(self)
+       
         self.lista_sesiones = []
 
     def crear_sesion(self):
@@ -24,8 +27,34 @@ class Main():
             camara = Dispositivo(id_camara, nombre_camara, resolucion_camara, marca_camara, modelo_camara)
             lista_camaras.append(camara)
 
+        # evaluando
+        #return lista_camaras and self.lista_sesiones[id,nombre_asignatura,nombre_profesor,sala,fecha,hora_inicio,hora_fin,cantidad_camaras,]
+        
+        
+        # mejoras
+        def iniciar_transmision():
+            pass
+        def cambiar_camara(self):
+            pass
+        def terminar_transmision():
+            pass
+
+
+
+
+    
+    
+
 
 
 
 if __name__=="__main__":
-    Main()
+    pass
+Sesion= Main()
+Sesion.crear_sesion()
+Sesion.cambiar_camara()
+
+
+
+
+
